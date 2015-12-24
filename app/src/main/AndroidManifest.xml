@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.laptrinhmobile.toposmobile" >
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Login"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Sales"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Customer"
+            android:label="@string/title_activity_custommer" >
+        </activity>
+        <activity
+            android:name=".AddCustomer"
+            android:label="@string/title_activity_add_customer" >
+        </activity>
+        <activity
+            android:name=".AddProductForSales"
+            android:label="@string/title_activity_add_product_for_sales" >
+        </activity>
+        <activity
+            android:name=".ListMenu"
+            android:label="@string/title_activity_list_menu" >
+        </activity>
+        <activity
+            android:name=".Edit_Product"
+            android:label="@string/title_activity_edit__product" >
+        </activity>
+        <activity
+            android:name=".Payment"
+            android:label="@string/title_activity_payment" >
+        </activity>
+        <activity
+            android:name=".ChoosePayment"
+            android:label="@string/title_activity_choose_payment" >
+        </activity>
+        <activity
+            android:name=".Initialization"
+            android:label="@string/title_activity_initialization"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PaymentComplete"
+            android:label="@string/title_activity_payment_complete"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".Edit_HinhThucThanhToan"
+            android:label="@string/title_activity_edit__hinh_thuc_thanh_toan"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ConnectBluetooth"
+            android:label="@string/title_activity_connect_bluetooth"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".BlueToothPrinter" >
+        </activity>
+        <activity android:name=".BTDeviceList" >
+        </activity>
+        <activity android:name=".Setting" >
+        </activity>
+    </application>
+
+</manifest>

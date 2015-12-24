@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.laptrinhmobile.toposmobile.Fragment.SettingListFragment"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#1E68AD"
+        android:layout_height="52dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/backwhite"
+            android:id="@+id/btnBack" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginStart="10dp"
+            android:text="@string/txt_view_title_setting_list_fragment"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:id="@+id/txtViewCashName" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list" />
+
+
+</LinearLayout>

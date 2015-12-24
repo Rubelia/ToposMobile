@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.laptrinhmobile.toposmobile.Edit_HinhThucThanhToan">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#1E68AD"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="62dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_cancel"
+            android:id="@+id/btnCancel" />
+
+        <TextView
+            android:layout_width="153dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"
+            android:text="Ca1: "
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            android:id="@+id/txtViewCashName"
+            android:layout_weight="0.81" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_save"
+            android:id="@+id/btnSave"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="185dp"
+            android:layout_height="64dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center|center_vertical"
+            android:text="Số tiền"
+            android:id="@+id/textView10" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/editTxtAmount" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="181dp"
+            android:layout_height="75dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center|center_vertical"
+            android:text="Tên hình thức"
+            android:id="@+id/textView11" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:gravity="center|center_vertical"
+            android:id="@+id/txtViewTenHinhThuc" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="88dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Ma Nguyen Te"
+            android:gravity="center|center_vertical"
+            android:id="@+id/textView12" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:gravity="center|center_vertical"
+            android:id="@+id/txtViewMaNguyenTe" />
+    </LinearLayout>
+</LinearLayout>

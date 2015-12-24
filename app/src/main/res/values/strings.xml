@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">TP Pos</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="button_save">Lưu</string>
+    <string name="button_cancel">Hủy</string>
+    <!-- Form Login -->
+    <string name="txt_view_username">Số điện thoại</string>
+    <string name="txt_view_password">Mật khẩu</string>
+    <string name="btn_login">Đăng nhập</string>
+    <string name="img_btn_help">Trợ giúp</string>
+    <string name="img_btn_support">Hỗ trợ</string>
+    <string name="img_btn_setup">Cài đặt</string>
+    <string name="title_activity_main">Bán hàng</string>
+    <!-- Form Main  -->
+    <string name="txt_view_status">Trạng thái</string>
+    <string name="btn_addproduct">Thêm sản phẩm</string>
+    <string name="txt_view_discount">Chiết khấu: \n 0.00%</string>
+    <string name="txt_view_tax">Thuế:\n 0.00%</string>
+    <string name="txt_view_total">Tổng: \n 0.0 đồng</string>
+    <string name="txt_view_customer">Khách hàng</string>
+    <string name="txt_view_salesedit">Sửa hàng</string>
+    <string name="txt_view_suspend">Dừng</string>
+    <string name="txt_view_delete">Xóa</string>
+    <string name="title_activity_custommer">Customer</string>
+
+    <!-- Form Customer -->
+    <string name="txt_view_customer_title">Khách hàng</string>
+    <string name="title_activity_add_customer">AddCustomer</string>
+    <string name="btn_sort_by_id">Id</string>
+    <string name="btn_sort_by_barcode">Barcode</string>
+    <string name="btn_sort_by_name">Tên Khách hàng</string>
+    <string name="btn_sort_by_phone">Điện thoại</string>
+    <string name="btn_group_customer">Nhóm</string>
+    <string name="title_activity_add_product_for_sales">AddProductForSales</string>
+
+    <!-- Form AddProductForSales -->
+    <string name="btn_sort_by_code">Code</string>
+    <string name="btn_sort_by_description">Mô tả</string>
+    <string name="btn_scan_barcode">Quét mã</string>
+    <string name="btn_view_list">Danh sách</string>
+    <string name="btn_view_panel">Button\nPanel</string>
+    <string name="btn_view_catalog">Catalog</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_list_menu">ListMenu</string>
+    <string name="title_activity_scan_barcode">ScanBarcode</string>
+    <string name="title_activity_edit__product">Edit_Product</string>
+
+    <!-- Form Edit_Product -->
+    <string name="txt_view_mahh">Barcode</string>
+    <string name="txt_view_tenhh">Tên Hàng Hóa</string>
+    <string name="txt_view_quantity">Số lượng</string>
+    <string name="txt_view_price">Giá tiền</string>
+    <string name="txt_view_taxs">Thuế</string>
+    <string name="txt_view_totals">Tổng tiền</string>
+    <string name="btn_back">Trở lại</string>
+    <string name="btn_save">Lưu</string>
+    <string name="title_activity_payment">Payment</string>
+
+    <!-- Form Payment -->
+    <string name="txt_view_payable_amount">Tiền phải thanh toán: \n      00.0</string>
+    <string name="txt_view_paid_amount">Tiền đã thanh toán \n      00.0</string>
+    <string name="txt_view_balance_due">Tiền còn lại \n      00.0</string>
+    <string name="title_activity_choose_payment">ChoosePayment</string>
+
+    <!-- Form Choose Payment -->
+    <string name="txt_view_title_choose_payment">Chọn loại thanh toán</string>
+    <string name="txt_view_cash">\t Tiền mặt</string>
+    <string name="txt_view_gift_card">\t Thẻ quà tặng</string>
+    <string name="txt_view_coupon">\t Thẻ giảm giá</string>
+    <string name="txt_view_credit_card">\t Thẻ</string>
+    <string name="title_activity_cash">Cash</string>
+    <string name="txt_view_amount_for_payment">Số tiền</string>
+    <string name="txt_view_discount_for_payment">Chiết khấu</string>
+    <string name="txt_view_surcharge_for_payment">Surcharge</string>
+    <!-- Form Cash-->
+    <string name="txt_view_title_cash">Tiền mặt</string>
+    <string name="title_activity_gift_card">GiftCard</string>
+    <string name="title_activity_coupon">Coupon</string>
+    <string name="title_activity_credit_card">CreditCard</string>
+
+    <!-- Form Gift Card -->
+    <string name="txt_view_title_giftcard">Thẻ quà tặng</string>
+    <string name="txt_view_type_of_giftcard">Loại thẻ</string>
+    <string name="txt_view_number_of_giftcard">Số thẻ</string>
+
+    <!-- Form Coupon -->
+    <string name="txt_view_title_coupon">Khuyến mãi</string>
+
+    <!-- Form Credit Card-->
+    <string name="txt_view_title_credit_card">Credit Card</string>
+    <string name="title_activity_initialization">TP Pos</string>
+    <string name="title_activity_payment_complete">PaymentComplete</string>
+    <string name="title_activity_test">Test</string>
+    <string name="title_activity_edit__hinh_thuc_thanh_toan">Edit_HinhThucThanhToan</string>
+
+    <!-- Sales -->
+    <string name="txtViewTotal">    Tổng tiền: \n     </string>
+    <string name="txt_view_tencaban">Ca 1:</string>
+    <string name="txt_view_status_off">Offline</string>
+    <string name="txt_view_status_on">Online</string>
+    <!-- Payment -->
+    <string name="txtViewCashInReturn">Tiền còn lại: \n     </string>
+    <string name="txtViewMoneyHadPay">Tiền đã trả: \n     </string>
+    <string name="txtViewMoneyHasPay">Tiển phải trả: \n     </string>
+    <!-- AddProductForSales -->
+    <string name="mess_not_found_scand_tool">Không tim thấy ứng dụng tương thích</string>
+    <string name="mess_ass_download_scand_tool">Tải ứng dụng Barcode Scanner ?</string>
+    <string name="mess_yes_download_scand_tool">Có</string>
+    <string name="mess_no_download_scand_tool">Không</string>
+    <string name="title_activity_connect_bluetooth">ConnectBluetooth</string>
+    <!-- Connect Bluetooth -->
+    <string name="txt_view_connect">Bluetooth</string>
+    <string name="txt_view_scan_device">Quét tìm thiết bị</string>
+
+    <!-- Show err-->
+    <string name="bluetooth_scan_other_device">Quét tìm thiết bị khác …</string>
+    <string name="bluetooth_err_scan_other_device">Không thể bắt đầu tìm kiếm</string>
+    <string name="bluetooth_status_is_enable">Thiết bị đã mở bluetooth</string>
+    <string name="bluetooth_notice_turn_off">Đã tắt bluetooth</string>
+    <string name="bluetooth_notice_turn_on">Đã mở bluetooth</string>
+    <!-- setting_view -->
+    <string name="title_setting_old_ip">Địa chỉ IP - WebService cũ: </string>
+    <string name="title_setting_new_ip">Địa chỉ IP - Webservice mới: </string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_setting_list_fragment">Hello setting list fragment</string>
+    <string name="hello_setting_detail_fragment">Hello setting detail fragment</string>
+
+    <!-- Setting List Fragment -->
+    <string name="txt_view_title_setting_list_fragment">Cài đặt</string>
+    <string name="txt_view_server_setting">Cài đặt Server</string>
+    <string name="txt_view_configuration">Cấu hình</string>
+    <string name="txt_view_sync_setting">Đồng bộ</string>
+    <string name="txt_view_synchronize">Thông tin đồng bộ</string>
+    <!-- Server Setting Fragment-->
+    <string name="txt_view_title_server_setting_fragment">Cài đặt Server</string>
+    <string name="txt_view_deployment">Deployment</string>
+    <!-- Configuration Fragment-->
+    <string name="txt_view_title_configuration_fragment">Cấu hình</string>
+    <string name="txt_view_printer_setting">Cấu hình máy in</string>
+    <string name="txt_view_bill_setting">Cấu hình in BILL</string>
+
+    <!-- Bluetooth Fragment-->
+    <string name="txt_view_title_bluetooth_fragment">Thiết lập bluetooth cho máy in BILL</string>
+</resources>

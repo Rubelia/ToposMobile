@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.laptrinhmobile.toposmobile.Fragment.ServerSettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="#1E68AD"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginStart="10dp"
+                android:text="@string/txt_view_title_server_setting_fragment"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:id="@+id/txtViewCashName" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/backwhite"
+                android:id="@+id/btnSave" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:background="#1E68AD"
+            android:layout_height="52dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.7"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginStart="10dp"
+                android:text="@string/txt_view_deployment"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                android:gravity="center_vertical"
+                 />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/btn_save" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

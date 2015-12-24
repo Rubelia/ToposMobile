@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context="com.example.laptrinhmobile.toposmobile.AddProductForSales"
+    android:weightSum="1"
+>
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:weightSum="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_sort_by_code"
+            android:id="@+id/btnSortByCode"
+            android:layout_weight="0.44" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_sort_by_description"
+            android:id="@+id/btnSortByDes"
+            android:layout_weight="0.35" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_sort_by_barcode"
+            android:id="@+id/btnSortByBarcode"
+            android:layout_weight="0.27" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="274dp"
+        android:id="@+id/listProduct"
+        android:layout_weight="0.98"
+        android:smoothScrollbar="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_scan_barcode"
+            android:id="@+id/btnScanBarcode" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_view_list"
+            android:id="@+id/btnViewList" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_view_panel"
+            android:id="@+id/btnViewPanel" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_view_catalog"
+            android:id="@+id/btnViewCatalog" />
+    </LinearLayout>
+</LinearLayout>

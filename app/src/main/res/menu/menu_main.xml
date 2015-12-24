@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.laptrinhmobile.toposmobile.Main">
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_sync_down" android:title="Download"
+        android:orderInCategory="100" app:showAsAction= "never" />
+    <item android:id="@+id/action_sync_up" android:title="Upload"
+        android:orderInCategory="100" app:showAsAction= "never" />
+    <item android:id="@+id/action_connect_bluetooth" android:title="Bluetooth"
+        android:orderInCategory="100" app:showAsAction= "never" />
+    <item android:id="@+id/action_send_SMS" android:title="Test send SMS"
+        android:orderInCategory="100" app:showAsAction= "never" />
+    <item android:id="@+id/action_setAlarm" android:title="Thiết lập tự động chạy báo cáo"
+        android:orderInCategory="100" app:showAsAction= "never" />
+</menu>

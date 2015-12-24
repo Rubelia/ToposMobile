@@ -1,0 +1,194 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.laptrinhmobile.toposmobile.Edit_Product">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#1E68AD"
+        android:layout_marginBottom= "0.005dp">
+
+        <!-- style="@style/ActionBarCompat" -->
+        <ImageView
+            android:id="@+id/imgViewBack"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:background="#1E68AD"
+            android:paddingRight="5dip"
+            android:scaleType="center"
+            android:src="@drawable/backwhite"
+            />
+
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:background="#1E68AD"
+            android:gravity="center|center_vertical"
+            android:text="Chỉnh sửa Hàng Hóa"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/btn_save"
+            android:textColor="#FFFFFF"
+            android:background="#1E68AD"
+            android:id="@+id/btnSave" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="2dp" >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp">
+
+                <TextView
+                    style="@style/EditProduct_TextViewLeft"
+                    android:text="@string/txt_view_mahh"
+                    android:id="@+id/textView4"
+                    />
+
+                <TextView
+                    style="@style/EditProduct_TextViewRight"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:background="#6A6D75"
+                    android:text="Large Text"
+                    android:id="@+id/txtViewMaHH"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_height="40dp">
+
+                <TextView
+                    style="@style/EditProduct_TextViewLeft"
+                    android:text="@string/txt_view_tenhh"
+                    android:id="@+id/textView6"
+                     />
+
+                <TextView
+                    style="@style/EditProduct_TextViewRight"
+                    android:text="Large Text"
+                    android:background="#6A6D75"
+                    android:id="@+id/txtViewTenHH" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="2dp"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/EditProduct_TextViewLeft"
+                    android:text="@string/txt_view_quantity"
+                    android:id="@+id/textView8" />
+
+                <EditText
+                    style="@style/EditProduct_TextViewRight"
+                    android:text="Large Text"
+                    android:id="@+id/editTextQuantity"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="0.93" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:background="#1E68AD"
+                    android:enabled="false"
+                    android:text="Trừ"
+                    android:id="@+id/btnSub" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="40dp"
+                    android:layout_height="match_parent"
+                    android:text="Cộng"
+                    android:background="#1E68AD"
+                    android:id="@+id/btnAdd" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_height="40dp">
+
+                <TextView
+                    style="@style/EditProduct_TextViewLeft"
+                    android:text="@string/txt_view_price"
+                    android:id="@+id/textView5"
+                    />
+
+                <TextView
+                    style="@style/EditProduct_TextViewRight"
+                    android:text="Large Text"
+                    android:id="@+id/txtViewGiaBan" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="2dp"
+                android:layout_height="40dp">
+
+                <TextView
+                    style="@style/EditProduct_TextViewLeft"
+                    android:text="@string/txt_view_taxs"
+                    android:id="@+id/textView7" />
+
+                <TextView
+                    style="@style/EditProduct_TextViewRight"
+                    android:text="Large Text"
+
+                    android:id="@+id/txtViewTax" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:weightSum="1">
+
+                <TextView
+                    style="@style/EditProduct_TextViewLeft"
+                    android:text="@string/txt_view_totals"
+                    android:id="@+id/textView9" />
+
+                <TextView
+                    style="@style/EditProduct_TextViewRight"
+                    android:text="Large Text"
+                    android:id="@+id/txtViewTotal" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

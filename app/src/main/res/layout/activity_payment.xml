@@ -1,0 +1,112 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1E68AD"
+    tools:context="com.example.laptrinhmobile.toposmobile.Payment"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backwhite"
+            android:id="@+id/btnBack" />
+
+        <TextView
+            android:layout_width="175dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginLeft="10dp"
+            android:text="Ca1: "
+            android:textColor="#FFFFFF"
+            android:gravity="center_vertical"
+            android:id="@+id/txtViewCashName" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center|center_vertical"
+            android:text="Offline"
+            android:textColor="#FFFFFF"
+            android:id="@+id/txtViewStatus" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="251dp"
+        android:background="#6A6D75"
+        android:id="@+id/listPayment"
+        android:layout_weight="0.41" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:layout_weight="0.38">
+
+        <TextView
+            android:layout_width="151dp"
+            android:layout_height="88dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/txt_view_payable_amount"
+            android:id="@+id/txtViewMoneyHasPay" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/txt_view_paid_amount"
+            android:id="@+id/txtViewMoneyHadPay" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/txt_view_balance_due"
+            android:id="@+id/txtViewCashInReturn" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:tag="Loại thanh toán"
+            android:id="@+id/imgBtnChoosePayment"
+            android:layout_marginLeft="25dp"
+            android:contentDescription="Chọn hình thức thanh toán"
+            android:layout_weight="0.24" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:contentDescription="Thanh toán nhanh"
+            android:tag="Thanh toán nhanh"
+            android:id="@+id/imgBtnQuickPayment"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_weight="0.29" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:tag="Hoàn tất giao dịch"
+            android:contentDescription="Hoàn tất giao dịch"
+            android:id="@+id/imgBtnCompletePayment"
+            android:clickable="false"
+            android:enabled="false"
+            android:layout_weight="0.26" />
+    </LinearLayout>
+
+</LinearLayout>

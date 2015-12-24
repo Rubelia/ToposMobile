@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.laptrinhmobile.toposmobile.ConnectBluetooth"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_margin="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="201dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_view_connect"
+            android:gravity="center_vertical"
+            android:id="@+id/textView14" />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/switch_turn_bluetooth" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:weightSum="1" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/txt_view_scan_device"
+            android:gravity="center_vertical"
+            android:id="@+id/txtViewScanDevice" />
+
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listBluetooth" />
+
+
+</LinearLayout>

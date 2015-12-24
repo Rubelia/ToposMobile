@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.laptrinhmobile.toposmobile.Fragment.ConfigurationFragment"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="#1E68AD"
+        android:layout_height="52dp">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_marginStart="10dp"
+            android:text="@string/txt_view_title_configuration_fragment"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:id="@+id/txtViewCashName" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/btn_save"
+            android:id="@+id/btnSave" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06">
+
+        <TextView
+            android:layout_width="460dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center_vertical"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/txt_view_printer_setting"
+            android:id="@+id/textView16" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnsetting"
+            android:id="@+id/btnPrinterSetting" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06">
+
+        <TextView
+            android:layout_width="460dp"
+            android:layout_height="match_parent"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:gravity="center_vertical"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp"
+            android:text="@string/txt_view_bill_setting"
+            android:id="@+id/textView17" />
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btnsetting"
+            android:id="@+id/btnBillSetting" />
+    </LinearLayout>
+
+</LinearLayout>
